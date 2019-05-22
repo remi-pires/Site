@@ -1,2 +1,163 @@
-<h1>Coucou, c'est moi<h1>
-<h1><a href="CV.html">Portfolio</a></h1>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio de Rémi PIRES</title>
+  <meta charset="utf-8">
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Social media Font -->
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
+
+  <!-- Materialize: Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body class=" grey darken-4">
+  <header>
+    <div class="header-bg"></div>
+    <nav class="nav-wraper green darken-1">
+      <div class="container">
+
+        <a href="#" class="brand-logo grey-text text-darken-3">Portfolio</a>
+        <a href="#" class="sidenav-trigger grey-text text-darken-3">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a class="grey-text text-darken-3" href="index.html">Accueil</a></li>
+          <li ><a class="grey-text text-darken-3" href="CV.html">CV</a></li>
+          <li ><a class="grey-text text-darken-3" href="moi.html">Plus sur moi</a></li>
+        </ul>
+      <div>
+    </nav>
+  </header>
+
+  <div class="container" id="wrapper">
+    <!-- first card with personal info -->
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <div class="card-content ">
+            <div class="row ">
+              <div class="col s12 l5 center">
+                <img class="avatar" src="./images/avatar.png">
+                <ul class="social-icons">
+                  <li><a href="#" class="pure-button button-socicon"><span class="socicon socicon-facebook grey-text text-darken-1"></span></a></li>
+                  <li><a href="#" class="pure-button button-socicon"><span class="socicon socicon-twitter grey-text text-darken-1"></span></a></li>
+                  <li><a href="#" class="pure-button button-socicon"><span class="socicon socicon-linkedin grey-text text-darken-1"></span></a></li>
+                  <li><a href="#" class="pure-button button-socicon"><span class="socicon socicon-dribbble grey-text text-darken-1"></span></a></li>
+                  <li><a href="#" class="pure-button button-socicon"><span class="socicon socicon-instagram grey-text text-darken-1"></span></a></li>
+                </ul>
+              </div>
+              <div class="col s12 l7 info center">
+                <h1 id="about" class="scrollspy">Rémi PIRES</h1>
+                <p class="grey-text text-darken-1">Etudiant à l'IUT Montpellier et développeur</p>
+                <ul>
+                  <li><span class="profile-title">Age</span><span class="profile-desc">21</span></li>
+                  <li><span class="profile-title">Adresse</span><span class="profile-desc">7 rue de la mairie 11140 Montfort-sur-Boulzane</span></li>
+                  <li><span class="profile-title">Email</span><span class="profile-desc">remipires93@laposte.net</span></li>
+                  <li><span class="profile-title">Téléphone</span><span class="profile-desc">+04 68 20 95 29</span></li>
+                  <li><span class="profile-title">Stage</span><span class="profile-desc">Disponible</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="projects" class="green darken-1  scrollspy">Projets</h2>
+    <div class="carousel">
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="https://github.com/IUTInfoMontp-M2103/projet-dominion-abecassisbecpiresrobinet">
+              <img class="responsive-img" src="images/dominion.jpeg" alt="Dominion image"></a>
+            <span class="card-title green darken-1">Dominion</span>
+          </div>
+          <div class="card-content">
+            <p>Projet scolaire où il fallait programmer le jeu Dominion en Java</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <a href="#">
+            <img class="responsive-img" src="images/plantasia.jpg" alt="plantasia image"></a>
+            <span class="card-title green darken-1">Plantasia</span>
+          </div>
+          <div class="card-content">
+            <p>1er prix de la Code Game Jam 3ème édition, fait avec Unity</p>
+          </div>
+        </div>
+      </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://gitlab.com/DF-Shock/nuit_info">
+              <img class="responsive-img" src="images/3Dbis.png" alt="Raytracer image"></a>
+              <span class="card-title green darken-1">Rendu 3D</span>
+            </div>
+            <div class="card-content">
+              <p>2nd place d'un défi de la Nuit de l'Info 2018</p>
+              <p>Fait en JavaScript, avec la librarie BABYLON</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="contact" class="green darken-1 scrollspy">Contact</h2>
+    <div class="card">
+      <div class="card-content center">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Prénom</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Nom</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Mot de passe</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <a class="waves-effect waves-light btn  green darken-1 pulse">Envoyer</a>
+      </div>
+    </div>
+  </div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
